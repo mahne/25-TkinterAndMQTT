@@ -109,7 +109,7 @@ def run_test_go_straight_for_seconds():
     beeper.beep()
     drive_system.go_straight_for_seconds(2.5, -50)
     # -------------------------------------------------------------------------
-    # TODO: 6.  Run the above tests.  Be sure to understand the
+    # DO: 6.  Run the above tests.  Be sure to understand the
     #              go_straight_for_seconds   method of   DriveSystem.
     # -------------------------------------------------------------------------
 
@@ -144,7 +144,7 @@ def run_test_go_straight_for_inches_using_time():
     beeper.beep()
     drive_system.go_straight_for_inches_using_time(12, -50)
     # -------------------------------------------------------------------------
-    # TODO: 7.  Run the above tests.  Be sure to understand the
+    # DO: 7.  Run the above tests.  Be sure to understand the
     #              go_straight_for_inches_using_time   method of   DriveSystem.
     # -------------------------------------------------------------------------
 
@@ -233,7 +233,7 @@ def run_test_raise_arm():
     arm_and_claw.raise_arm()
 
     # -------------------------------------------------------------------------
-    # TODO: 11.  With your instructor, implement the
+    # DO: 11.  With your instructor, implement the
     #      raise_arm    method of   DriveSystem.
     #      The tests are already written for you -- READ THEM (above).
     # -------------------------------------------------------------------------
@@ -277,7 +277,7 @@ def run_test_lower_arm():
     arm_and_claw.lower_arm()
 
     # -------------------------------------------------------------------------
-    # TODO: 12.  With your instructor, implement the
+    # DO: 12.  With your instructor, implement the
     #      lower_arm    method of   DriveSystem.
     #      The tests are already written for you -- READ THEM (above).
     # -------------------------------------------------------------------------
@@ -307,7 +307,7 @@ def run_test_go_forward_until_distance_is_less_than():
     print('Testing the   go_forward_until_distance_is_less_than   method of DriveSystem:')
     print('--------------------------------------------------')
     # -------------------------------------------------------------------------
-    # TODO: 14. Implement this test method, then implement the method it tests.
+    # DO: 14. Implement this test method, then implement the method it tests.
     # -------------------------------------------------------------------------
 
 
@@ -318,7 +318,7 @@ def run_test_tones_until_touch_sensor_is_pressed():
     print('Testing the   go_straight_until_light_intensity_is_within   method of DriveSystem:')
     print('--------------------------------------------------')
     # -------------------------------------------------------------------------
-    # TODO: 15. Implement this test method, then implement the method it tests.
+    # DO: 15. Implement this test method, then implement the method it tests.
     # -------------------------------------------------------------------------
 
 
